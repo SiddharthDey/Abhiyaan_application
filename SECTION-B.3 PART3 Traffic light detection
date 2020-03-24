@@ -1,0 +1,28 @@
+I tried training the custom object detection using ImageaAI and yolov3 by following an article on the net but I had some problems installing tensorflow on my laptop so I again tried something on google colab but that didn't work either.I annotated the sample data given in the application using LabelImg which i have put in the drive link below:-
+
+and here is the python code i tried but didn't work
+
+Code to run the model:-
+
+from imageai.Detection.Custom import DetectionModelTrainer
+
+trainer = DetectionModelTrainer()
+trainer.setModelTypeAsYOLOv3()
+trainer.setDataDirectory(data_directory="traffic_light")
+trainer.setTrainConfig(object_names_array=["traffic_light"], batch_size=4, num_experiments=100, train_from_pretrained_model="pretrained-yolov3.h5")
+trainer.trainModel() 
+
+Code to use the trained model to identify trafficz-light:-
+
+from imageai.Detection.Custom import CustomObjectDetection
+
+detector = CustomObjectDetection()
+detector.setModelTypeAsYOLOv3()
+detector.setModelPath("traffic_light-ex-60--loss-2.76.h5") 
+detector.setJsonPath("detection_config.json")
+detector.loadModel()
+detections = detector.detectObjectsFromImage(input_image="traffic_light1.jpg", output_image_path="traffic_light-detected.jpg")
+for detection in detections:
+    print(detection["name"], " : ", detection["percentage_probability"], " : ", detection["box_points"])
+
+

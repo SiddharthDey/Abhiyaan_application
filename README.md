@@ -9,12 +9,14 @@ ME18B075
 
 Previous Experiences:
 ------------------------------
--worked in MEA webops team on the backend part
+-worked in MEA webops team on the backend part;
+
 -worked as an intern at Fixnix during the semester break after my second semester,there we were assigned to create a datalake by webscraping using tools like Scrapy, Selenium and Beautiful soup and structuring the data using NLP features like Named Entity Recognition with the help of libraries like NLP and spacy and saving the data on loocal databases like mongodb.All the codes were written in python.
 
 Current PORs:
 ------------------------------
--working as a part of the stability team in Avishkar(Hyperloop) which mainly focuses on mechanical designing and structural simulations of suspension mechanisms using software like Solidworks and Ansys and proper selection of bearings, springs and dampers(the team is kind of really unstable right now so we have no work and i am not sure about what is going to happen with it)
+-working as a part of the stability team in Avishkar(Hyperloop) which mainly focuses on mechanical designing and structural simulations of suspension mechanisms using software like Solidworks and Ansys and proper selection of bearings, springs and dampers(the team is kind of really unstable right now so we have no work and i am not sure about what is going to happen with it);
+
 -part of tapti hostel's tech team  where we work on bots for techsoc events.Recently i worked on the micromuse event where we used ultrasonic sensors for distance measurement and used the floodfill algorithm to reach the centre,but the bot failed to work on the day of the event due to some error in the final code. But we also worked on cricket bot event where we had to automate hitting a ball and we used camera and used Opencv for the coding part and won the event.
 
 Why i want to work in the team:

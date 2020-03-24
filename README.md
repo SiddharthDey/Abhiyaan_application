@@ -27,9 +27,11 @@ Relevant courses:
 -----------------
 In Institute
 -----------------
+
 Introduction to Programming
 
 Online
 -------------
-Andrew NG - machine learning(first 5 weeks till neural networks and back propagations)
+Andrew NG - machine learning(first 5 weeks till neural networks and back propagations);
+
 cs231n (first 4 videos upto losses defintion) 
